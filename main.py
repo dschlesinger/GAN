@@ -33,7 +33,7 @@ if gpus:
 # Change this to the location of the database directories
 
 #Dirrector and more imports
-DB_DIR = os.path.dirname(os.path.realpath(r"C:\Users\Theon\Downloads\installation_guide"))
+DB_DIR = os.path.dirname(os.path.realpath(r"\installation_guide"))
 sys.path.insert(1, DB_DIR)
 from db_utils import get_imdb_dataset, get_speech_dataset, get_single_digit_dataset
 
